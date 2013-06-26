@@ -3,6 +3,7 @@ default['xdebug']['scream'] = 0
 default['xdebug']['remote_enable'] = "On"
 default['xdebug']['remote_autostart'] = 0
 default['xdebug']['remote_mode'] = "req"
+default['xdebug']['max_nesting_level'] = 100
 default['xdebug']['remote_connect_back'] = 1
 default['xdebug']['idekey'] = "macgdbp"
 default['xdebug']['file_link_format'] = "txmt://open?url=file://%f&line=%1"
